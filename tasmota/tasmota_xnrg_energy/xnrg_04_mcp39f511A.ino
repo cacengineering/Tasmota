@@ -20,10 +20,10 @@
 #ifdef USE_ENERGY_SENSOR
 #ifdef USE_MCP39F501
 /*********************************************************************************************\
- * MCP39F501 - Energy (Shelly 2)
+ * MCP39F511A - Energy monitoring chip 
  *
- * Based on datasheet from https://www.microchip.com/wwwproducts/en/MCP39F501
- * and https://github.com/OLIMEX/olimex-iot-firmware-esp8266/blob/7a7f9bb56d4b72770dba8d0f18eaa9d956dd0baf/olimex/user/modules/mod_emtr.c
+ * Based on driver xnrg_04_mcp39f501.ino and mofified for the 39511A variant of the chipset.  Datasheet from https://www.microchip.com/wwwproducts/en/MCP39F501
+ * written my a non-programmer with suggestions for edits in the hopes that someone will pick it up and convert.  The apparoch has been to make the driver compatible with both the exisitng chipset and the new 511A chipset.  
 \*********************************************************************************************/
 
 #define XNRG_04                 4
